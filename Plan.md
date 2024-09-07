@@ -11,3 +11,6 @@ Bro it turns out doing the http request only gives you the top part and the bott
 ### 9/6/24
 Hell nah, we will just debug this. Using ChatGPTs help, I found that each time I scroll, it's an XHR request. Will try to follow this down using ChatGPT and figure out what's going on.
 LMAO HOLY SHIT the aops_session_id is just the MD5 hash of the string "session"
+
+### 9/7/24
+Reduced to hard LLM problem. It's having trouble figuring out what's a solution or not, as expected. I think that's good enough for this project. Time to move on to some more hardcore API practice.
