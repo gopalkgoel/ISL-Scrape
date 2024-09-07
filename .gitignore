@@ -1,4 +1,5 @@
 .obsidian
 old_code
 secret_keys.json
-problems/__pycache__
+problems/
+__pycache__
