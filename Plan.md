@@ -9,4 +9,5 @@ Step 1: Given a URL corresponding to an AoPS thread, extract the post content so
 Bro it turns out doing the http request only gives you the top part and the bottom part of the thread, and skips all the posts in the middle. That's so bad. Not tryna debug that rn, so lets see if I can pivot to webscraping a simpler webpage?
 
 ### 9/6/24
-Hell nah, we will just debug this. Using ChatGPTs help, I found that each time I scroll, it's an XHR request. Will try to follow this down using ChatGPT and figure out what's going on
+Hell nah, we will just debug this. Using ChatGPTs help, I found that each time I scroll, it's an XHR request. Will try to follow this down using ChatGPT and figure out what's going on.
+LMAO HOLY SHIT the aops_session_id is just the MD5 hash of the string "session"
